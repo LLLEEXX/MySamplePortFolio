@@ -100,7 +100,7 @@ function Home() {
           <section className="imgCont">
             <img
               className="myImg"
-              src={process.env.PUBLIC_URL + '/assets/ItsMe.jpg'}
+              src="./src/assets/ItsMe.jpg"
               alt="MyPicture"
             />
           </section>
