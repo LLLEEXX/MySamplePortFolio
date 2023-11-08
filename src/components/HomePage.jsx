@@ -100,7 +100,7 @@ function Home() {
           <section className="imgCont">
             <img
               className="myImg"
-              src="./assets/ItsMe.jpg"
+              src={process.env.PUBLIC_URL + '/assets/ItsMe.jpg'}
               alt="MyPicture"
             />
           </section>
@@ -134,8 +134,8 @@ function Home() {
               <NavLink to="/tools">Tools</NavLink>
             </nav>
             <Routes>
-              <Route path="/" element={<Skills />} />
-              <Route path="/tools" element={<Tools />} />
+              <Route path="./" element={<Skills />} />
+              <Route path="./tools" element={<Tools />} />
             </Routes>
             {/* INCLUDE THE LINKS HERE */}
           </section>
