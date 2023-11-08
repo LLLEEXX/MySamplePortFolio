@@ -100,7 +100,7 @@ function Home() {
           <section className="imgCont">
             <img
               className="myImg"
-              src="../src/assets/ItsMe.jpg"
+              src="./assets/ItsMe.jpg"
               alt="MyPicture"
             />
           </section>
